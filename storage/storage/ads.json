@@ -1,0 +1,28 @@
+{
+  "homepage_banner": {
+    "type": "image",
+    "image": "https://via.placeholder.com/1200x200",
+    "link": "https://google.com"
+  },
+  "list_inline": {
+    "type": "image",
+    "image": "https://via.placeholder.com/300x450",
+    "link": "https://google.com",
+    "interval": 6
+  },
+  "player_popup": {
+    "type": "image",
+    "image": "https://via.placeholder.com/600x400",
+    "link": "https://google.com",
+    "delay_seconds": 1
+  },
+  "player_preroll": {
+    "type": "video",
+    "video": "/assets/ads/preroll.mp4",
+    "link": "https://google.com",
+    "skip_after_seconds": 5,
+    "max_seconds": 15,
+    "muted": true,
+    "cooldown_minutes": 15
+  }
+}
